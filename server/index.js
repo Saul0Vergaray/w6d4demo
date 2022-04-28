@@ -5,4 +5,4 @@ app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname,'../index.html'))
 })
 const port = process.env.PORT || 4545
-app.listen(port, () => console.log('beam us up ${port}'))
+app.listen(port, () => console.log('beam us up ${port}!'))
